@@ -22,6 +22,7 @@
 		FE9AE57A233B9B6700C44951 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE9AE57D233B9B6700C44951 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE9AE57F233B9B6700C44951 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE58D35233CCD77000775DC /* appxyz.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = appxyz.entitlements; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +55,7 @@
 		FE9AE572233B9B6600C44951 /* appxyz */ = {
 			isa = PBXGroup;
 			children = (
+				FEE58D35233CCD77000775DC /* appxyz.entitlements */,
 				FE9AE573233B9B6600C44951 /* AppDelegate.swift */,
 				FE9AE575233B9B6600C44951 /* ViewController.swift */,
 				FE9AE577233B9B6600C44951 /* Main.storyboard */,
@@ -282,18 +284,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = appxyz/appxyz.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6NQK2WC4GW;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S34YM3S85L;
 				INFOPLIST_FILE = appxyz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cinderellaid.appxyz;
+				PRODUCT_BUNDLE_IDENTIFIER = cin.derel.la.appxyz2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -301,18 +307,22 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = appxyz/appxyz.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = 6NQK2WC4GW;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = S34YM3S85L;
 				INFOPLIST_FILE = appxyz/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = cinderellaid.appxyz;
+				PRODUCT_BUNDLE_IDENTIFIER = cin.derel.la.appxyz2;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
